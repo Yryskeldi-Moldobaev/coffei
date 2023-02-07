@@ -1,0 +1,28 @@
+*{
+    padding: 0px;
+    margin: 0px;
+}
+ul{
+    display: flex;
+    justify-content: flex-end;
+    background-color: rgb(66, 66, 66);
+}
+li{
+    list-style: none;
+    padding: 25px;
+}
+div{
+    list-style: none;
+    font-size: 16px;
+    display: flex;
+    justify-content: center;
+    color: white;
+    text-decoration: dashed;
+    text-transform: uppercase;
+}
+a{
+    font-size: 18px;
+    text-decoration: dashed;
+    color: rgb(255, 255, 255);
+    text-transform: uppercase;
+}

@@ -1,0 +1,119 @@
+*{
+    padding: 0px;
+    margin: 0px;
+}
+ul{
+    display: flex;
+    justify-content: center;
+    background-color: rgb(8, 0, 69);
+}
+li{
+    list-style: none;
+    padding: 35px;
+}
+a{
+    font-size: 24px;
+    text-decoration: dashed;
+    color: rgb(255, 255, 255);
+    text-transform: uppercase;
+    border: solid 1px;
+}
+header{
+    width: 100%;
+    height: 675px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-image:url(https://s1.1zoom.ru/big0/235/Poppies_Summer_Grasslands_Trees_562184_1270x1024.jpg) ;
+}
+.header-back{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.header-back{
+    color:brown;
+    font-size: 26px;
+}
+body{
+    font-family: 'Roboto', sans-serif;
+}
+.div.name,.div.date{
+    margin-left: 40px;
+}
+.div.name{
+    font-weight: bold;
+    font-size: 20px;
+}
+hr{
+    margin-top: 20px;
+}
+.div-about-me{
+    display: flex;
+    justify-content: space-between;
+}
+.about-image img{
+    width: 300px;
+}
+
+.main-text{
+    display: flex;
+}
+.main-text, .about-text1, .about-text2{
+    width: 500px;
+    margin-right: 60px;
+    margin-left: 40px;
+    margin-top: 30px;
+}
+/* .scr{
+    width: 1000px;
+    height: 150px;
+} */
+
+.text-div-01{
+    font-size: 35vw;
+    color: rgba(125, 231, 255, 0.544);
+    transform: translateX(230px);
+}
+.div-project{
+    display: flex;
+}
+.first-image-project img{
+    width: 600px;
+}
+.text-div-project{
+    color: aqua;
+    font-size: 9vw;
+    transform: translateY(-210px);
+    text-transform: uppercase;
+}
+.red{
+    width: 40px;
+    height: 280px;
+    background-color: aqua;
+}
+.second-flex-file{
+    display: flex;
+}
+
+.text-men{
+    text-transform: uppercase;
+    text-decoration: dashed;
+    color: blue;
+    font-size: 25px;
+    justify-content: center;
+}
+.div-text{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 600px;
+}
+.text1{
+    font-size: 56px;
+}
+.text2{
+    font-size: 25px;
+}
